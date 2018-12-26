@@ -23,7 +23,7 @@
     "OTHER_LDFLAGS": "-ObjC"
   },
   "source": {
-    "http": "http://adsdk.yumimobi.com/iOS/YumiVideoAdsSDK/2.1.1_32.tar.bz2"
+    "http": "http://adsdk.yumimobi.com/iOS/YumiVideoAdsSDK/2.1.1_44.tar.bz2"
   },
   "platforms": {
     "ios": "7.0"

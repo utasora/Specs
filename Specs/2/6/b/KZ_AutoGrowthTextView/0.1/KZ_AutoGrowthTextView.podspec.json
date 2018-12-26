@@ -11,17 +11,20 @@
     "KieronZhang.": "https://github.com/KieronZhang"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "source": {
     "git": "https://github.com/KieronZhang/KZ_AutoGrowthTextView.git",
     "tag": "0.1",
     "submodules": true
   },
-  "source_files": "KZ_AutoGrowthTextView/*.{h,m}",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
   "frameworks": [
     "UIKit",
     "Foundation"
   ],
+  "vendored_frameworks": "KZ_AutoGrowthTextView/KZ_AutoGrowthTextViewFramework.framework",
   "requires_arc": true
 }

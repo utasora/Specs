@@ -51,7 +51,7 @@
     "OTHER_LDFLAGS": "-ObjC"
   },
   "source": {
-    "http": "http://adsdk.yumimobi.com/iOS/YumiMediationSDK/1.8.0_385.tar.bz2"
+    "http": "http://adsdk.yumimobi.com/iOS/YumiMediationSDK/1.8.0_467.tar.bz2"
   },
   "platforms": {
     "ios": "7.0"

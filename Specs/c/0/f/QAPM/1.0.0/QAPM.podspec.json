@@ -3,22 +3,20 @@
   "version": "1.0.0",
   "summary": "Baidu QAPM",
   "description": "The Baidu iOS Application Performance Management SDK.",
-  "homepage": "https://github.com/crabteam/QAPM",
+  "homepage": "https://qapm.baidu.com",
   "license": {
-    "type": "MIT",
-    "file": "LICENSE"
+    "type": "Copyright",
+    "text": "\t\t  Copyright 2017 Baidu. All rights reserved.\n"
   },
   "authors": {
     "Fu Mingxin": "fumingxin@baidu.com"
   },
   "source": {
-    "git": "https://github.com/crabteam/QAPM.git",
-    "tag": "1.0.0"
+    "http": "https://github.com/crabteam/QAPM/raw/master/Release/1.0.0.zip"
   },
   "platforms": {
     "ios": "7.0"
   },
-  "source_files": "QAPM/Classes/**/*",
   "libraries": "z",
   "frameworks": [
     "Foundation",
@@ -26,6 +24,6 @@
     "SystemConfiguration"
   ],
   "ios": {
-    "vendored_frameworks": "QAPM/Classes/QAPM.framework"
+    "vendored_frameworks": "QAPM.framework"
   }
 }

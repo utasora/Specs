@@ -13,17 +13,25 @@
     "tag": "2.0.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "default_subspecs": "ObjC",
+  "pushed_with_swift_version": "3.0",
   "subspecs": [
     {
       "name": "ObjC",
       "platforms": {
-        "ios": "7.0"
+        "ios": "8.0"
       },
-      "source_files": "BoomMenuButton/**/*.{h,m}"
+      "source_files": "VHBoomMenuButton/**/*.{h,m,swift}"
+    },
+    {
+      "name": "Swift",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "VHBoomMenuButtonSwift/**/*.{h,m,swift}"
     }
   ]
 }
